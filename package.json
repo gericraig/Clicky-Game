@@ -2,7 +2,12 @@
   "name": "Clicky-Game",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/gericraig/Clicky-Game.git",
+  "homepage": "http://gericraig.github.io/Clicky-Game.git",
   "author": "Geralyn Craig <gericraig18@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
