@@ -5,9 +5,13 @@
   "homepage": "http://gericraig.github.io/Clicky-Game.git",
   "author": "Geralyn Craig <gericraig18@gmail.com>",
   "license": "MIT",
+  "private": true,
   "predeploy": "yarn run build",
   "deploy": "gh-pages -d build",
   "devDependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^16.7.0"
   }
 }
