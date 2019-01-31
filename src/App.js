@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Images from './images.json'
+import Images from './images'
 import Wrapper from './components/Wrapper'
 import Navpills from './components/Navpills'
 import Title from './components/Title'
