@@ -5,7 +5,7 @@ Click an image only once in a game. Each time an image is clicked the image disp
 
 **Technologies Use:**
 
-*react
-*javascript
-*css
-*node.js
+-react
+-javascript
+-css
+-node.js
